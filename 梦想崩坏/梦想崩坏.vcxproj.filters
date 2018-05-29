@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameStart">
+      <UniqueIdentifier>{c633ebb6-32a3-44c4-bb38-c29369382791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Toolset">
+      <UniqueIdentifier>{44555885-9403-4873-924f-e7767a0bed0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEnd">
+      <UniqueIdentifier>{d3cdf55e-f1ac-4aeb-bcd1-52794a956502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameRun">
+      <UniqueIdentifier>{0be833a4-b7df-4d16-8822-ce9f515ab8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLibrary">
+      <UniqueIdentifier>{07423689-c0f8-4f0c-b133-bcfee9288129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLibrary\D2DDRAW">
+      <UniqueIdentifier>{7d1cfbb6-b222-40a4-9f6d-562887d0eb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLibrary\Gif">
+      <UniqueIdentifier>{9b48db7f-8c78-4725-aab4-102d284e1db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Toolset\Fmod">
+      <UniqueIdentifier>{739e5217-2810-4e09-8203-359cfb9d774f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLibrary\Audio">
+      <UniqueIdentifier>{2a6614dd-3a7e-45b5-adb9-e5c6a369becb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{5928cba6-7cf4-4762-8d90-5b04e1542b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start">
+      <UniqueIdentifier>{bf8e5669-a57d-460a-b11e-1eb7ab10e954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\Conponent">
+      <UniqueIdentifier>{f99d0162-afc2-4390-a63f-3e409e7d1270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\Conponent\Begin">
+      <UniqueIdentifier>{10aabc8a-dbcb-4540-9554-d4f8c7de2c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\Conponent\Proceed">
+      <UniqueIdentifier>{b2603b19-287d-4406-a99c-ff855430799a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\Conponent\Config">
+      <UniqueIdentifier>{1085f5b2-bc2c-46bf-851b-abd234e1edfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\Conponent\About">
+      <UniqueIdentifier>{c0e50599-0582-4797-91cf-8673c7d27ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\RoleChoose">
+      <UniqueIdentifier>{1ada4d2f-42ba-413c-bcd0-07b9f0831052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\RoleChoose\Conponent">
+      <UniqueIdentifier>{bacc3411-5b5a-4575-94f9-628d24414b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\RoleChoose\Conponent\Return">
+      <UniqueIdentifier>{1da9e252-2190-4b8b-8274-5de987cb47bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLibrary\Conponent">
+      <UniqueIdentifier>{d082173c-f86e-43a8-91ba-aa52202f4dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLibrary\Conponent\Buttom">
+      <UniqueIdentifier>{021eda5d-4798-4ce7-b257-833f27556928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\BaseScene">
+      <UniqueIdentifier>{adb93294-4a77-4014-83d2-638c68c950e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Start\Conponent\Exit">
+      <UniqueIdentifier>{55b71c9c-00a1-4f1d-939b-8ef8266c8c51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEntry.cpp">
+      <Filter>GameStart</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DDraw.cpp">
+      <Filter>MyLibrary\D2DDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif.cpp">
+      <Filter>MyLibrary\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolset.cpp">
+      <Filter>Toolset</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>MyLibrary\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>GameScene\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>MyLibrary\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginGame.cpp">
+      <Filter>GameScene\Start\Conponent\Begin</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceedGame.cpp">
+      <Filter>GameScene\Start\Conponent\Proceed</Filter>
+    </ClCompile>
+    <ClCompile Include="StartConfig.cpp">
+      <Filter>GameScene\Start\Conponent\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="StartAbout.cpp">
+      <Filter>GameScene\Start\Conponent\About</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleChooseScene.cpp">
+      <Filter>GameScene\Start\RoleChoose</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseRoleReturn.cpp">
+      <Filter>GameScene\Start\RoleChoose\Conponent\Return</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttom.cpp">
+      <Filter>MyLibrary\Conponent\Buttom</Filter>
+    </ClCompile>
+    <ClCompile Include="CConponent.cpp">
+      <Filter>MyLibrary\Conponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildScene.cpp">
+      <Filter>GameScene\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>GameScene\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartExit.cpp">
+      <Filter>GameScene\Start\Conponent\Exit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEntry.h">
+      <Filter>GameStart</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DDraw.h">
+      <Filter>MyLibrary\D2DDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif.h">
+      <Filter>MyLibrary\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolset.h">
+      <Filter>Toolset</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmod.h">
+      <Filter>Toolset\Fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>MyLibrary\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>MyLibrary\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>GameScene\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginGame.h">
+      <Filter>GameScene\Start\Conponent\Begin</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceedGame.h">
+      <Filter>GameScene\Start\Conponent\Proceed</Filter>
+    </ClInclude>
+    <ClInclude Include="StartConfig.h">
+      <Filter>GameScene\Start\Conponent\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="StartAbout.h">
+      <Filter>GameScene\Start\Conponent\About</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleChooseScene.h">
+      <Filter>GameScene\Start\RoleChoose</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseRoleReturn.h">
+      <Filter>GameScene\Start\RoleChoose\Conponent\Return</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttom.h">
+      <Filter>MyLibrary\Conponent\Buttom</Filter>
+    </ClInclude>
+    <ClInclude Include="CConponent.h">
+      <Filter>MyLibrary\Conponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildScene.h">
+      <Filter>GameScene\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>GameScene\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHead.h">
+      <Filter>GameScene\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartExit.h">
+      <Filter>GameScene\Start\Conponent\Exit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
